@@ -1,0 +1,8 @@
+#chạy thử:
+./prob
+ELF 64-bit LSB pie executable, x86-64
+Input: Input length mismatch!
+#Kiểm tra strings
+Strings prob
+strings prob | grep -E "(Input|Correct|Wrong|memcmp|scanf|rol|ror|cmptable)"
+
